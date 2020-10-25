@@ -1,0 +1,11 @@
+port: 8000
+auth_service:
+host: "http://localhost:8000"
+database:
+  driver: "mysql"
+  host: "Localhost"
+  port: "3306"
+  user: "root"
+  password: "parlin145"
+  db_name: "digtalent_microservice_auth"
+  config: "charset=utf8&parseTime=True&loc=Local"
